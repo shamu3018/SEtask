@@ -1,0 +1,76 @@
+
+
+
+/* import fonts from font.css*/
+@import url(./font.css);    
+
+/* start navigation */ 
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 2rem 20rem ; 
+    float:right;
+}
+
+ .header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 3rem 4rem;
+    /* padding-left: 20px; */
+    color: var(--title-color);
+    float: right;
+} */
+
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* end navigation */ 
+
+/* Banner Area */ 
+
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+}
+
+ .Aboutme {
+    text-align: left;
+  
+}
+
+ .heading {
+    text-align: left 30px;
+    
+
+}
+
+
+
+
+.desgination{
+    text-align: right;
+}
+.site-main .site-banner .banner-image > img{
+    position: absolute;
+    right:600px;
+
+}
+
+
+
+/* End Banner Area */ 
